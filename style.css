@@ -4,8 +4,19 @@ body {
 }
 
 /* --- page-banner --- */
+/* --- page-banner --- */
 .page-banner {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
   text-align: center;
+  background-color: #181818;
+  color: white;
+  text-decoration: none;
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
 }
 
 
