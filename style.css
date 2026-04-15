@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* --- page-banner --- */
+
 /* --- page-banner --- */
 .page-banner {
   margin: 0px 0px 0px 0px;
@@ -50,3 +50,17 @@ body {
   background-color: #303030;
 }
 
+
+
+
+
+
+
+
+
+/* --- Profile Card ---*/
+.profile-card {
+  padding: 15px 20px 15px 20px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
