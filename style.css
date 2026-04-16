@@ -68,6 +68,19 @@ main {
 
 
 
+/* --- Footer --- */
+.footer-content {
+  height: 100px;
+  background-color: #181818;
+}
+
+
+
+
+
+
+
+
 
 /* --- Profile Card ---*/
 .profile-card {
