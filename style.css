@@ -62,7 +62,7 @@ body {
 .profile-card {
   padding: 100px 20px 10px 20px;
   width: 250px;
-  height: 200px;
+  height: 300px;
   background: 
     linear-gradient(0deg, #eaeae0 30%, #eaeae08b 75%, #eaeae09c),
     radial-gradient(
@@ -79,6 +79,7 @@ body {
   height: 75px;
   border-radius: 50%;
   object-fit: cover; /* Centers and crops the image */
+  margin: 0px 0px 10px 0px;
 }
 
 .profile-card-name {
