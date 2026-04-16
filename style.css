@@ -66,6 +66,7 @@ body {
 
 /* --- Profile Card ---*/
 .profile-card {
+  float: right;
   padding: 150px 20px 10px 20px;
   width: 250px;
   height: 275px;
