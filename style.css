@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #333333;
 }
 
 
@@ -72,7 +71,7 @@ body {
       #f8f8f8
     );
   border-radius: 15px;
-
+  color: #333333;
 }
 
 .profile-card-image {
