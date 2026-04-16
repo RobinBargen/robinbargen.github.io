@@ -4,6 +4,12 @@ body {
 }
 
 
+/* --- Clear float --- */
+.clear-float {
+  clear: both;
+}
+
+
 /* --- page-banner --- */
 .page-banner {
   margin: 0px 0px 0px 0px;
