@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  color: #333333;
 }
 
 
@@ -60,7 +61,7 @@ body {
 
 /* --- Profile Card ---*/
 .profile-card {
-  padding: 100px 20px 10px 20px;
+  padding: 150px 20px 10px 20px;
   width: 250px;
   height: 300px;
   background: 
