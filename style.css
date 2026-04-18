@@ -70,6 +70,10 @@ main {
 
 /* --- Footer --- */
 .footer-content {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 100px;
   padding: 20px 10px 20px 10px;
   background-color: #181818;
