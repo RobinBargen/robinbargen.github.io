@@ -1,11 +1,30 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+
+  /*
+  Add display flex to allow us to keep the footer at the bottom of the page.
+  This is done by setting the flex direction as column and making the body
+  uptake the whole view height.
+
+  The main content is marked with 'flex: 1', which pushes all other preceeding content,
+  i.e. the footer down to the bottom of the document.
+  */
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* --- Main --- */
 main {
   padding: 10px 20px 10px 20px;
+
+  /*
+  'flex: 1' is added such that the main section is added to the flexbox of the body.
+  When this is done, all preceeding elements in the document (i.e. the footer) will be
+  pushed down to the bottom of the page.
+  */
+  flex: 1;
 }
 
 
@@ -70,14 +89,17 @@ main {
 
 /* --- Footer --- */
 .footer-content {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   height: 100px;
   padding: 20px 10px 20px 10px;
   background-color: #181818;
   color: white;
+
+  /*
+  Adding sticky layout and placing the footer content at the bottom of the page.
+  This is done to ensure that the footer stays 'sticked' to the bottom of the page.
+  */
+  position: sticky;
+  bottom: 0;
 }
 
 
