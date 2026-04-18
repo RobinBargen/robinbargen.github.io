@@ -102,6 +102,12 @@ main {
   bottom: 0;
 }
 
+.footer-content a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+
 
 
 
