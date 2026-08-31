@@ -57,3 +57,158 @@ Old HTML:
 
 Old style sheet:
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  /*
+  Add display flex to allow us to keep the footer at the bottom of the page.
+  This is done by setting the flex direction as column and making the body
+  uptake the whole view height.
+
+  The main content is marked with 'flex: 1', which pushes all other preceeding content,
+  i.e. the footer down to the bottom of the document.
+  */
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Main --- */
+main {
+  padding: 10px 20px 10px 20px;
+
+  /*
+  'flex: 1' is added such that the main section is added to the flexbox of the body.
+  When this is done, all preceeding elements in the document (i.e. the footer) will be
+  pushed down to the bottom of the page.
+  */
+  flex: 1;
+}
+
+
+/* --- Clear float --- */
+.clear-float {
+  clear: both;
+}
+
+
+/* --- page-banner --- */
+.page-banner {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  background-color: #181818;
+  color: white;
+  text-decoration: none;
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+
+
+/* --- navbar --- */
+.navbar {
+  background-color: #181818;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+.navbar li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 18px 29px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "GRAD" 0;
+}
+
+.navbar li:hover {
+  background-color: #303030;
+}
+
+
+
+
+
+
+
+
+/* --- Footer --- */
+.footer-content {
+  height: 100px;
+  padding: 20px 10px 20px 10px;
+  background-color: #181818;
+  color: white;
+
+  /*
+  Adding sticky layout and placing the footer content at the bottom of the page.
+  This is done to ensure that the footer stays 'sticked' to the bottom of the page.
+  */
+  position: sticky;
+  bottom: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- Profile Card ---*/
+.profile-card {
+  float: right;
+  padding: 150px 20px 10px 20px;
+  width: 250px;
+  height: 300px;
+  background: 
+    linear-gradient(0deg, #eaeae0 30%, #eaeae08b 75%, #eaeae09c),
+    radial-gradient(
+      circle at 100%,
+      #0472c0,
+      #f8f8f8
+    );
+  border-radius: 15px;
+  color: #333333;
+}
+
+.profile-card-image {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover; /* Centers and crops the image */
+  margin: 0px 0px 10px 0px;
+}
+
+.profile-card-name {
+  font-size: larger;
+  font-weight: normal;
+  margin: 0px 0px 10px 0px;
+}
+
+.profile-card-title {
+  font-size: medium;
+  margin: 0px 0px 15px 0px;
+  color: #4e94d7;
+}
