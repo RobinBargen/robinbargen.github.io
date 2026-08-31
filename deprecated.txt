@@ -1,1 +1,59 @@
 Use this file to add deprecated code etc. that may be useful in the future, but that shouldn't necessary be used yet.
+
+
+
+Old HTML:
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page - Robin von Bargen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <header>
+    <div class="page-banner">
+        <h1>Robin von Bargen</h1>
+    </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li> 
+                <li><a href="">Other</a></li>   
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="profile-card">
+                <img class= "profile-card-image" src="images/profile-image.jpg" alt="Profile image">
+                <h1 class="profile-card-name">Robin von Bargen</h1>
+                <p class="profile-card-title">Software and DevOps Developer</p>
+                <p class="profile-card-about">I’m a developer with experience in the oil & gas and telecommunications industries. I’m comfortable working across a wide range of platforms and technologies, and I enjoy adapting to new challenges and environments.</p>
+            </div>
+            <div class="about-section">
+                <h1>About</h1>
+                <p>Hi, and welcome to my small site on the internet. This site's intended purpose is to act as a small wiki and to provide easy to access to some of my GitHub repositories. The site is still under construction. This means that the site's appearance and content at times might be cluttered or be limited.</p>
+            </div>
+        </div>
+        <div class="clear-float"></div>
+        <p>Hi and welcome to my small site here on the world wide web. It's purpose is yet unknown, but hopefully it might somehow evolve into something useful. <br> Anyway, here it is...</p>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Bargen, Robin von. Powered by <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+Old style sheet:
+
