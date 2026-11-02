@@ -1,9 +1,3 @@
-
-
-
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -65,7 +59,7 @@ body {
 
 
 .welcome-section {
-    background-image: url("background-test-2.png");
+    background-image: url("img/background-test-2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
