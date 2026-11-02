@@ -1,47 +1,133 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main Page - Robin von Bargen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML5 Website</title>
+    <meta name="description" content="A lightweight and semantic HTML5 starter template.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 
-    <header>
-    <div class="page-banner">
-        <h1>Robin von Bargen</h1>
-    </div>
-        <nav>
-            <ul class="navbar">
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li> 
-                <li><a href="">Other</a></li>   
+    <header class="header-class">
+        <h1>Page name</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <div class="profile-card">
-                <img class= "profile-card-image" src="images/profile-image.jpg" alt="Profile image">
-                <h1 class="profile-card-name">Robin von Bargen</h1>
-                <p class="profile-card-title">Software and DevOps Developer</p>
-                <p class="profile-card-about">I’m a developer with experience in the oil & gas and telecommunications industries. I’m comfortable working across a wide range of platforms and technologies, and I enjoy adapting to new challenges and environments.</p>
+
+     <main>
+
+        <!-- Welcome section -->
+        <section class="welcome-section">
+            <div class="welcome-section-row-1">
+                <h1>Welcome.</h1>
+                <p>Welcome to my github pages site. This site is used to showcase my work and to navigate my public github repositories.</p>
             </div>
-            <div class="about-section">
-                <h1>About</h1>
-                <p>Hi, and welcome to my small site on the internet. This site's intended purpose is to act as a small wiki and to provide easy to access to some of my GitHub repositories. The site is still under construction. This means that the site's appearance and content at times might be cluttered or be limited.</p>
-            </div>
-        </div>
-        <div class="clear-float"></div>
-        <p>Hi and welcome to my small site here on the world wide web. It's purpose is yet unknown, but hopefully it might somehow evolve into something useful. <br> Anyway, here it is...</p>
-    </main>
-    <footer>
+        </section>
+
+        <!-- About me section -->
+        <section class="about-me-section">
+            <h2>About me</h2>
+            <p>I'm a developer Developer with a passion for technology, problem-solving, and continuous learning.<br>Curious by nature, with interests spanning software, mathematics, engineering, AI and the natural sciences.</p>
+            <p><a href="#">See 'About me'.</a><br><a href="#">See 'CV'.</a></p>
+        </section>
+        <hr class="rounded">
+
+        <!-- Articles section -->
+        <article class="front-page-article">
+            <h2>Articles</h2>
+            <p>Make sure you stay up to date with the latest articles posted. To see all the articles written, see <a href="#">this</a> page.</p>
+        </article>
+        <hr class="rounded">
+
+        <!-- Projects section -->
+        <article class="front-page-article">
+            <h2>Projects</h2>
+            <p>Below you find an overview of a small portfolio of projects that I've worked with.</p>
+            <p>TODO: ADD SOME SUITABLE WAY OF VISUALIZING PROJECTS HERE....</p>
+
+            <section class="front-page-project-card-section">
+                
+                <div class="front-page-project-card">
+                    <p class="front-page-project-card-title">Reporting module</p>
+                    <p>This project implements a reporting module, that allows for issues to be reported automatically by the system itself, if an issue were to be detected.</p>
+                    <div class="front-page-project-card-details">
+                        <p>Contributor(s):</p>
+                        <p>Bargen, Robin von</p>
+                        <p>Repository link:</p>
+                        <p><a href="">Link to enquiry module.</a></p>
+                    </div>
+                </div>
+
+                <div class="front-page-project-card">
+                    <img class="front-page-project-card-image" src="img/a-star-algorithm-project.jpg" alt="Screenshot of A* pathfinding application, illustrating how the algorithm is able to find the shortest route between two points.">
+                    <div class="front-page-project-card-right">
+                        <p class="front-page-project-card-title">A* Pathfinding</p>
+                        <p>This project is a simple implementation of the 'A*' - pathfinding algorithm. The project was done to understant the concept of pathfinding algorithms better, and as such touches upon some basic concepts on how these algorithms can be implemented.</p>
+                        
+                        <div class="front-page-project-card-details">
+                            <p>Contributor(s):</p>
+                            <p>Bargen, Robin von</p>
+                            <p>Repository link:</p>
+                            <p><a href="">Link to enquiry module.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="front-page-project-card">
+                    <img class="front-page-project-card-image" src="" alt="">
+                    <div class="front-page-project-card-right">
+                        <p class="front-page-project-card-title">LSTM Neural Network</p>
+                        <p>Developed a proof-of-concept Long Short-Term Memory (LSTM) neural network in Python using PyTorch. The project focused on gaining hands-on experience with recurrent neural networks and understanding how LSTMs can retain and use information across longer sequences. LSTM networks are particularly well suited for sequential and time-series data and can be used for applications such as forecasting, anomaly detection, sequence classification, and natural language processing.</p>
+                        
+                        <div class="front-page-project-card-details">
+                            <p>Contributor(s):</p>
+                            <p>Bargen, Robin von</p>
+                            <p>Repository link:</p>
+                            <p><a href="">Link to enquiry module.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </article>
+
+     </main>
+
+      <footer>
         <div class="footer-content">
             <p>&copy; 2026 Bargen, Robin von. Powered by <a href="https://pages.github.com/">GitHub Pages</a>.</p>
         </div>
     </footer>
+    <!--
+    <main>
+        <section>
+            <h2>Main Content Section</h2>
+            <p>This is where your primary content goes.</p>
+        </section>
+
+        <article>
+            <h2>Independent Article</h2>
+            <p>Great for blog posts, news articles, or forum entries.</p>
+        </article>
+
+        <aside>
+            <h2>Sidebar</h2>
+            <p>Contains related or tangential information.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    -->
 </body>
 </html>
